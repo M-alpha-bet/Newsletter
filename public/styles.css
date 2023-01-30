@@ -1,0 +1,154 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.navi {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.mainHeader {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin: 40px 0;
+}
+
+.secondHeader {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.chatBox {
+  width: 60%;
+}
+
+.bitmoji {
+  border-radius: 50px;
+}
+
+.space {
+  margin: 40px 0;
+}
+
+.form-signup {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signup .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.fa-brands {
+  padding: 20px 20px 12px;
+}
+
+/* CSS Animations */
+
+.animate {
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+  animation-fill-mode: backwards;
+}
+
+.blur {
+  animation-name: animate-blur;
+  animation-timing-function: ease;
+}
+
+.glow {
+  animation-name: animate-glow;
+  animation-timing-function: ease;
+}
+
+@keyframes animate-glow {
+  0% {
+    opacity: 0;
+    filter: brightness(3) saturate(3);
+    transform: scale(0.8, 0.8);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1) saturate(1);
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes animate-blur {
+  0% {
+    opacity: 0;
+    filter: blur(15px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.delay-1 {
+  animation-delay: 0.6s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+.delay-3 {
+  animation-delay: 1.4s;
+}
+
+.delay-4 {
+  animation-delay: 1.8s;
+}
+
+.delay-5 {
+  animation-delay: 2.2s;
+}
+
+.delay-6 {
+  animation-delay: 2.6s;
+}
+
+.delay-7 {
+  animation-delay: 3s;
+}
+
+.delay-8 {
+  animation-delay: 3.4s;
+}
+
+.delay-9 {
+  animation-delay: 3.8s;
+}
+
+.delay-10 {
+  animation-delay: 4.2s;
+}
+
+.delay-11 {
+  animation-delay: 4.6s;
+}
+
+.delay-12 {
+  animation-delay: 5s;
+}
